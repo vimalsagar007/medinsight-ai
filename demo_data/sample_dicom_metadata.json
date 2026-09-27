@@ -1,0 +1,27 @@
+{
+  "dicom_header": {
+    "SOPInstanceUID": "1.2.840.10008.5.1.4.1.1.2.20260814.102312",
+    "StudyInstanceUID": "1.2.840.113619.2.55.3.283117282.88391",
+    "SeriesInstanceUID": "1.2.840.113619.2.55.3.283117282.88391.3",
+    "PatientID": "DEMO-PT-88391",
+    "PatientName": "ANONYMIZED^PATIENT",
+    "PatientBirthDate": "1972-04-11",
+    "PatientSex": "F",
+    "StudyDate": "2026-08-14",
+    "StudyTime": "102312",
+    "Modality": "CT",
+    "BodyPartExamined": "CHEST",
+    "StudyDescription": "CT CHEST W CONTRAST",
+    "SeriesDescription": "AXIAL 2.5mm SOFT TISSUE",
+    "Manufacturer": "GE Healthcare",
+    "ManufacturerModelName": "Revolution CT",
+    "SliceThickness": "2.5",
+    "KVP": "120",
+    "Rows": 512,
+    "Columns": 512,
+    "BitsAllocated": 16,
+    "AccessionNumber": "ACC-2026-88391",
+    "InstitutionName": "Metropolitan Health System"
+  },
+  "safety_disclaimer": "DICOM metadata extracted for technical verification and correlation. Independent AI image interpretation is prohibited."
+}

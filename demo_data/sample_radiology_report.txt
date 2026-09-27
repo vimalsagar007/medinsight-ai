@@ -1,0 +1,35 @@
+===================================================================
+MedInsight AI — Synthetic De-Identified Radiology Report
+===================================================================
+
+PATIENT ID: DEMO-PT-88391
+DATE OF SERVICE: 2026-08-14
+EXAMINATION: CT Chest with Contrast
+MODALITY: Computed Tomography (CT)
+REFERRING PHYSICIAN: Dr. Sarah Jenkins, MD
+
+CLINICAL INDICATION:
+54-year-old patient with persistent cough and mild dyspnea for 3 weeks. Non-smoker. Evaluate for pulmonary opacity or infiltrates.
+
+FINDINGS:
+Lungs & Airways:
+Trachea and mainstem bronchi are clear. Lungs are well-inflated. A discrete 6mm x 5mm subpleural nodule is noted in the right upper lobe (Series 3, Image 42). No consolidation, ground-glass opacity, or pleural effusion. No pneumothorax.
+
+Mediastinum & Heart:
+Heart size is within normal limits. Pericardium is clear. No mediastinal or hilar lymphadenopathy (largest subcarinal lymph node measures 7mm in short axis, non-pathologic). Thoracic aorta is normal in caliber without aneurysm or dissection.
+
+Bones & Soft Tissues:
+No acute osseous abnormality. Degenerative changes noted along the mid-thoracic spine. Visualized upper abdominal organs are unremarkable within limitations of non-dedicated CT.
+
+MEASUREMENTS:
+- Right Upper Lobe Nodule: 6.0 mm x 5.0 mm
+- Subcarinal Lymph Node: 7.0 mm (short axis)
+
+IMPRESSION:
+1. Solitary 6 mm subpleural nodule in the right upper lobe. Recommend follow-up low-dose CT chest in 6 to 12 months per Fleischner Society guidelines to assess stability.
+2. No acute pulmonary infiltrate, lobar consolidation, or pleural effusion.
+3. No mediastinal or hilar lymphadenopathy.
+
+RADIOLOGIST:
+Dr. Marcus Vance, MD (Board Certified Radiologist)
+Electronically Signed on 2026-08-14 14:32 EST

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Node dependencies & Next.js build
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment variables & secrets
+.env
+*.env
+*.pem
+*.key
+service_account.json
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/

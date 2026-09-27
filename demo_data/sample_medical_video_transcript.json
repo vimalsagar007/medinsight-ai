@@ -1,0 +1,58 @@
+{
+  "media_id": "MED-VID-9921",
+  "media_type": "video/mp4",
+  "title": "Post-Consultation Pulmonary Procedure & Follow-up Plan Explanation",
+  "duration_seconds": 430,
+  "chapters": [
+    {
+      "start_time": "00:00",
+      "end_time": "02:14",
+      "title": "Patient Interview & Symptom Review",
+      "summary": "Patient discusses persistent mild cough and activity-related shortness of breath over 3 weeks."
+    },
+    {
+      "start_time": "02:15",
+      "end_time": "05:20",
+      "title": "Doctor Discussion of Chest CT Findings",
+      "summary": "Physician reviews the CT chest scan showing a 6mm right upper lobe subpleural nodule and explains Fleischner Society follow-up protocol."
+    },
+    {
+      "start_time": "05:21",
+      "end_time": "07:10",
+      "title": "Procedure Explanation & Next Steps",
+      "summary": "Discussion of pulmonary function test (PFT) and scheduled follow-up CT scan in 6 months."
+    }
+  ],
+  "transcription": [
+    {
+      "timestamp": "00:15",
+      "speaker": "Dr. Jenkins",
+      "text": "Hello, today we are reviewing the results of your chest CT scan performed yesterday."
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Patient",
+      "text": "I've been feeling a bit short of breath when taking long walks, and the cough hasn't gone away."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Dr. Jenkins",
+      "text": "The CT scan showed a tiny 6 millimeter nodule in the upper portion of your right lung. This is very small and very common."
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Dr. Jenkins",
+      "text": "Standard clinical guidelines recommend repeating a low-dose CT in 6 to 12 months to make sure it remains stable."
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Dr. Jenkins",
+      "text": "We will also schedule a routine blood panel and pulmonary function test next month."
+    }
+  ],
+  "visible_observations": "Physician demonstrating 3D chest anatomy model on screen; patient in consultation room.",
+  "questions_for_physician": [
+    "Should I monitor for any specific symptoms like fever or severe chest pain before the 6-month scan?",
+    "Do I need to make any lifestyle adjustments or dietary changes before the upcoming PFT test?"
+  ]
+}
