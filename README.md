@@ -27,6 +27,64 @@ MedInsight AI is an enterprise-grade multimodal healthcare report analysis platf
 
 ---
 
+## 🧪 How to Test This Application
+
+You can test MedInsight AI instantly via the live Google Cloud Run deployment or locally on your workstation:
+
+### Option 1: Live Cloud Testing (Instant — No Installation Needed)
+The backend is deployed live on Google Cloud Agent Runtime / Cloud Run:
+- **Interactive Swagger UI**: 👉 **[https://medinsight-backend-61256100941.us-central1.run.app/docs](https://medinsight-backend-61256100941.us-central1.run.app/docs)**
+
+#### Quick Terminal Verification (`curl`):
+1. **Check Live Health & Cloud Services**:
+   ```bash
+   curl -s https://medinsight-backend-61256100941.us-central1.run.app/health
+   ```
+2. **Test Healthcare AI Agent Query**:
+   ```bash
+   curl -s -X POST https://medinsight-backend-61256100941.us-central1.run.app/api/chat \
+     -H "Content-Type: application/json" \
+     -d '{"message": "What are the key findings in the chest CT report?", "session_id": "TEST-101"}'
+   ```
+
+---
+
+### Option 2: Test Locally (Frontend Web App + Backend)
+1. **Start Backend Server**:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python3 -m uvicorn app.main:app --reload --port 8080
+   ```
+2. **Start Frontend Web Application**:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+3. Open `http://localhost:3000` in your browser. Upload sample files from `demo_data/` to test report analysis, side-by-side comparison, and chat.
+
+---
+
+### Option 3: Run Automated Test & Evaluation Suite
+```bash
+# 1. Run Unit Tests (Guardrails, Redaction, MCP Tools, Agents)
+python3 -m unittest discover -s tests
+
+# 2. Run Quality Flywheel Evaluation Suite
+python3 evaluation/run_evaluation.py
+```
+
+---
+
+### 📂 Sample Files for Testing
+Sample files are provided in the [`demo_data/`](demo_data/) directory:
+- `demo_radiology_report.txt`: Sample chest CT report.
+- `demo_lab_results.json`: Sample blood panel (HbA1c, glucose, lipid panel).
+- `demo_dicom_metadata.json`: DICOM metadata headers.
+
+---
+
 ## Technical Architecture
 
 ```
