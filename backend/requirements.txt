@@ -6,7 +6,7 @@ google-cloud-pubsub==2.19.0
 google-cloud-aiplatform==1.43.0
 google-cloud-logging==3.9.0
 google-cloud-trace==1.13.0
-google-cloud-secretmanager==2.18.1
+google-cloud-secret-manager>=2.16.0
 python-multipart==0.0.9
 requests==2.31.0
 pytest==8.0.2
