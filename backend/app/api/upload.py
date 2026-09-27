@@ -17,7 +17,7 @@ class UploadResponse(BaseModel):
     document_type: str
     processing_status: str
 
-@app_upload_route = router.post("/upload", response_model=UploadResponse)
+@router.post("/upload", response_model=UploadResponse)
 async def upload_file(
     filename: str = Form(...),
     mime_type: str = Form(...),

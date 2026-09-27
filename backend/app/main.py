@@ -4,10 +4,13 @@ import logging
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-# Add root directory to python path for imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from backend.app.api import upload, analyze, chat, compare, citations, session, eval_routes
+try:
+    from app.api import upload, analyze, chat, compare, citations, session, eval_routes
+except ImportError:
+    from backend.app.api import upload, analyze, chat, compare, citations, session, eval_routes
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger("MedInsightAPI")

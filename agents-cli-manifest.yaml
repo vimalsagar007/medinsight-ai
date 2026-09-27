@@ -1,0 +1,8 @@
+name: medinsight-ai
+framework: custom
+version: 1.0.0
+description: MedInsight AI — Multimodal Healthcare Report & Medical Media Analysis Assistant
+deployment:
+  target: cloud_run
+  entrypoint: backend/Dockerfile
+  port: 8080
